@@ -1,14 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
+import Buttons from "./buttons";
 
 function RightWay(props) {
   return (
-    <div>
-      <button onClick={props.decrement}>decrement</button>
-      {props.count}
-      <button onClick={props.increment}>increment</button>
-    </div>
+    <Buttons
+      count={props.count}
+      decrement={props.decrement}
+      increment={props.increment}
+    />
   );
 }
 
