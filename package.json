@@ -16,7 +16,7 @@
     "eject": "react-scripts eject"
   },
   "jest": {
-    "collectCoverageFrom": ["src/app.js", "src/right-way.js", "src/wrong-way.js"]
+    "collectCoverageFrom": ["src/app.js", "src/right-way.js", "src/wrong-way.js", "src/buttons.js", "src/providers.js"]
   },
   "eslintConfig": {
     "extends": [
